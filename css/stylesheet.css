@@ -1,0 +1,116 @@
+body
+{
+    background-color:#4cf232;
+}
+nav 
+{
+    padding: 10px;
+}
+nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c455f4;
+    border-radius: 32px;
+    border: 1px;
+    border-style: ridge;
+    border-color: black;
+   	font-family:Architects Daughter;
+}
+nav li 
+{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+nav li a 
+{
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 0px;
+    border-right-style: ridge;
+    border-color: black;
+    border-left: 0px;
+    border-left-style: ridge;
+    border-color: black;
+}
+
+nav li a:hover:not(.active) 
+{
+    background-color: #5592f4;
+     border-radius: 32px;
+    border: 1px;
+}
+
+.active 
+{
+    background-color: #5592f4;
+     border-radius: 32px;
+    border: 1px;
+}
+
+.banner {
+
+    margin:0 auto;
+    display:inline-block;
+    text-align:center;
+}
+
+ section {
+     border-radius: 32px;
+     width: 100%;
+     font-family: 'Architects Daughter', cursive;
+}
+ section h2 {
+     text-align: center;
+     justify-content: space-between;
+     align-items: stretch;
+     margin: 6px auto;
+     padding: 1px;
+     background-color: #c455f4;
+     border-color: black;
+     border-style: ridge;
+     border-radius: 32px;
+}
+ section p {
+     background-color: #c455f4;
+     text-align: justify;
+    /* Readability */
+     justify-content: space-between;
+     align-items: stretch;
+     border-radius: 32px;
+     border-color: black;
+     border-style: ridge;
+     font-family: helvetica;
+    /* Readability */
+     font-weight: bold;
+     padding: 10px;
+     margin: 6px;
+}
+section div {
+     display: inline-flex;
+}
+.pic
+{
+	padding: 10px;
+	background-color: #c455f4;
+     border-color: black;
+     border-style: ridge;
+     border-radius: 32px;
+}
+article
+{
+	text-align: center;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 6px auto;
+    padding: 1px;
+    background-color: #c455f4;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 32px;
+    font-family: 'Architects Daughter', cursive;
+}
